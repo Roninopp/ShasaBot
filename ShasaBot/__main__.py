@@ -94,9 +94,8 @@ buttons = [
       
 HELP_STRINGS = """
 Hɪ. I'ᴍ Pᴀᴛʀɪᴄɪᴀ,
-Cʟɪᴄᴋ Oɴ Tʜᴇ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ Tᴏ Gᴇᴛ Dᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ Hᴇʟᴩ Aʙᴏᴜᴛ Sᴩᴇᴄɪғɪᴄ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Mᴏᴅᴜʟᴇs Cᴜʀʀᴇɴᴛʟʏ Wᴏʀᴋɪɴɢ Iɴ Pᴀᴛʀɪᴄɪᴀ.
-Pᴏᴡᴇʀᴇᴅ Bʏ: @piroXpower
-"""
+`Cʟɪᴄᴋ Oɴ Tʜᴇ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ Tᴏ Gᴇᴛ Dᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ Hᴇʟᴩ Aʙᴏᴜᴛ Sᴩᴇᴄɪғɪᴄ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Mᴏᴅᴜʟᴇs Cᴜʀʀᴇɴᴛʟʏ Wᴏʀᴋɪɴɢ Iɴ Pᴀᴛʀɪᴄɪᴀ.
+Pᴏᴡᴇʀᴇᴅ Bʏ: @piroXpower.`"""
 
 layla_IMG = "https://telegra.ph/file/53e6bdbc5fc1c1f1edfff.jpg"
 
