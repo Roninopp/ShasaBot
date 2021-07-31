@@ -92,16 +92,18 @@ buttons = [
      
       
       
-HELP_STRINGS = """
-Hɪ. I'ᴍ Pᴀᴛʀɪᴄɪᴀ,
-`Cʟɪᴄᴋ Oɴ Tʜᴇ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ Tᴏ Gᴇᴛ Dᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ Hᴇʟᴩ Aʙᴏᴜᴛ Sᴩᴇᴄɪғɪᴄ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Mᴏᴅᴜʟᴇs Cᴜʀʀᴇɴᴛʟʏ Wᴏʀᴋɪɴɢ Iɴ Pᴀᴛʀɪᴄɪᴀ.
-Pᴏᴡᴇʀᴇᴅ Bʏ: @piroXpower.`"""
+ HELP_STRINGS = """
+`Hɪ.. 𝕴'ᴍ` [Pᴀᴛʀɪᴄɪᴀ](https://telegra.ph/file/53e6bdbc5fc1c1f1edfff.jpg)
+`𝕴'𝖒 𝖆 𝕳𝖊𝖗𝖔𝖎𝖓𝖊 𝕱𝖔𝖗 𝕱𝖚𝖓 𝖆𝖓𝖉 𝖍𝖊𝖑𝖕 𝖆𝖉𝖒𝖎𝖓𝖘 𝖙𝖔 𝖒𝖆𝖓𝖆𝖌𝖊 𝖙𝖍𝖊𝖎𝖗 𝖌𝖗𝖔𝖚𝖕𝖘! 𝕳𝖆𝖛𝖊 𝖆 𝖑𝖔𝖔𝖐 𝖆𝖙 𝖙𝖍𝖊 𝖋𝖔𝖑𝖑𝖔𝖜𝖎𝖓𝖌 𝖋𝖔𝖗 𝖆𝖓 𝖎𝖉𝖊𝖆 𝖔𝖋 𝖘𝖔𝖒𝖊 𝖔𝖋 𝖙𝖍𝖊 𝖙𝖍𝖎𝖓𝖌𝖘 𝕴 𝖈𝖆𝖓 𝖍𝖊𝖑𝖕 𝖞𝖔𝖚 𝖜𝖎𝖙𝖍.`"""
 
-layla_IMG = "https://telegra.ph/file/53e6bdbc5fc1c1f1edfff.jpg"
+
+shasa_IMG = "https://telegra.ph/file/53e6bdbc5fc1c1f1edfff.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- But Patricia Is Works On Free Server Currently So No Need."""
- 
+ You can support the project via [Paypal](#) or by contacting @PATRICIAXMUSIC \
+ Supporting isnt always financial! \
+ Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
