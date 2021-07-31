@@ -74,35 +74,36 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hᴇʟʟᴏ Tʜᴇʀᴇ ! I'ᴀᴍ [Patricia](https://telegra.ph/file/98d680b99fa76452ccfb0.jpg) 🥰!I'ᴍ A TᴇʟᴇTʜᴏɴ Bᴀsᴇᴅ Gʀᴏᴜᴩ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Wɪᴛʜ Mᴜᴄʜ Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇs! Hᴀᴠᴇ A Lᴏᴏᴋat Tʜᴇ Fʟᴏᴏᴡɪɴɢ Fᴏʀ Iᴅᴇᴀ ᴏғ Cᴏᴍᴍᴀɴᴅs 
-the things I can help you with.
+`𝕳𝖊𝖑𝖑𝖔` {} [🥰](https://telegra.ph/file/c4b69de63b6525efad6dd.jpg) `𝕸𝖞 𝕹𝖆𝖒𝖊 𝕴𝖘` *Shasa*
+`𝕴'𝖒 𝕳𝖊𝖗𝖊 𝖙𝖔 𝖍𝖊𝖑𝖕 𝖞𝖔𝖚 𝖎𝖓 𝖒𝖆𝖓𝖆𝖌𝖊 𝖞𝖔𝖚𝖗 𝖌𝖗𝖔𝖚𝖕𝖘! 𝕳𝖎𝖙` *📚Commands* 𝖔𝖗 /help  
 """
 
 buttons = [
     [
-      InlineKeyboardButton(text="Aʙᴏᴜᴛ😈", callback_data="layla_"),
-      InlineKeyboardButton(text="Fᴜɴᴄᴛɪᴏɴ📚", callback_data="help_back"),
+        InlineKeyboardButton(
+            text="🌹 𝙰𝙳𝙳 𝚂𝙷𝙰𝚂𝙰 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🌹", url="t.me/MissShasa_bot?startgroup=true"),
     ],
-    [ InlineKeyboardButton(text="Sᴜᴩᴩᴏʀᴛ⚠️", url="t.me/patricia_support"),
-      InlineKeyboardButton(text="Uᴩᴅᴀᴛᴇs🗞️", url="t.me/patricia_updates"),
+    [
+        InlineKeyboardButton(text="💞𝕬𝖇𝖔𝖚𝖙💞", callback_data="shasa_"),
+        InlineKeyboardButton(
+            text="💖𝕾𝖚𝖕𝖕𝖔𝖗𝖙💖", url=f"https://t.me/{SUPPORT_CHAT}"
+        ),
     ],
-    [ InlineKeyboardButton(
-      text="➕Sᴜᴍᴍᴏɴ Mᴇ Tᴏ Gʀᴏᴜᴩs➕", url="t.me/TanyaSecurityBot?startgroup=true"),
+    [
+        InlineKeyboardButton(text="💝𝕳𝖊𝖑𝖕 & 𝕮𝖔𝖒𝖒𝖆𝖓𝖉𝖘💝", callback_data="help_back"),
     ],
 ]
-      
-     
-      
-      
- HELP_STRINGS = """
-`Hɪ.. 𝕴'ᴍ` [Pᴀᴛʀɪᴄɪᴀ](https://telegra.ph/file/53e6bdbc5fc1c1f1edfff.jpg)
+
+
+HELP_STRINGS = """
+`𝕳𝖎.. 𝕴'𝖒` [𝕾𝖍𝖆𝖘𝖆❤️](https://telegra.ph/file/c4b69de63b6525efad6dd.jpg)
 `𝕴'𝖒 𝖆 𝕳𝖊𝖗𝖔𝖎𝖓𝖊 𝕱𝖔𝖗 𝕱𝖚𝖓 𝖆𝖓𝖉 𝖍𝖊𝖑𝖕 𝖆𝖉𝖒𝖎𝖓𝖘 𝖙𝖔 𝖒𝖆𝖓𝖆𝖌𝖊 𝖙𝖍𝖊𝖎𝖗 𝖌𝖗𝖔𝖚𝖕𝖘! 𝕳𝖆𝖛𝖊 𝖆 𝖑𝖔𝖔𝖐 𝖆𝖙 𝖙𝖍𝖊 𝖋𝖔𝖑𝖑𝖔𝖜𝖎𝖓𝖌 𝖋𝖔𝖗 𝖆𝖓 𝖎𝖉𝖊𝖆 𝖔𝖋 𝖘𝖔𝖒𝖊 𝖔𝖋 𝖙𝖍𝖊 𝖙𝖍𝖎𝖓𝖌𝖘 𝕴 𝖈𝖆𝖓 𝖍𝖊𝖑𝖕 𝖞𝖔𝖚 𝖜𝖎𝖙𝖍.`"""
 
 
-shasa_IMG = "https://telegra.ph/file/53e6bdbc5fc1c1f1edfff.jpg"
+shasa_IMG = "https://telegra.ph/file/c4b69de63b6525efad6dd.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @PATRICIAXMUSIC \
+ You can support the project via [Paypal](#) or by contacting @SimpleBoy787 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -189,7 +190,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="✪ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
                     ),
                 )
 
@@ -345,35 +346,31 @@ def help_button(update, context):
 
 
 @run_async
-def layla_about_callback(update, context):
+def shasa_about_callback(update, context):
     query = update.callback_query
-    if query.data == "layla_":
+    if query.data == "shasa_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Pᴀᴛʀɪᴄɪᴀ*, a powerful group management bot built to help you manage your group easily.
-                 \n✪ I can restrict users.
-                 \n✪ I can greet users with customizable welcome messages and even set a group's rules.
-                 \n✪ I have an advanced anti-flood system.
-                 \n✪ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \n✪I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 \n✪ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_Patricia's licensed under the GNU General Public License v3.0_
-                 \n✪ Updates @PATRICIA_UPDATES
-                 \n✪ Support @PATRICIA_SUPPORT
-                 \n✪ Assistant @PATRICIAXMUSIC.
-                 \nHere is the details For Owner [About Blaze](https://t.me/About_Blaze).
-                 \n\nIf you have any question about Patricia, let us know at @PATRICIA_CHATS.""",
+            text="""ℹ️ 𝕴'𝖒 *𝕾𝖍𝖆𝖘𝖆*, 𝖆 𝖕𝖔𝖜𝖊𝖗𝖋𝖚𝖑 𝖌𝖗𝖔𝖚𝖕 𝖒𝖆𝖓𝖆𝖌𝖊𝖒𝖊𝖓𝖙 𝖇𝖔𝖙 𝖇𝖚𝖎𝖑𝖙 𝖙𝖔 𝖍𝖊𝖑𝖕 𝖞𝖔𝖚 𝖒𝖆𝖓𝖆𝖌𝖊 𝖞𝖔𝖚𝖗 𝖌𝖗𝖔𝖚𝖕 𝖊𝖆𝖘𝖎𝖑𝖞.
+             ❍ 𝕴 𝖈𝖆𝖓 𝖗𝖊𝖘𝖙𝖗𝖎𝖈𝖙 𝖚𝖘𝖊𝖗𝖘.
+             ❍ 𝕴 𝖈𝖆𝖓 𝖌𝖗𝖊𝖊𝖙 𝖚𝖘𝖊𝖗𝖘 𝖜𝖎𝖙𝖍 𝖈𝖚𝖘𝖙𝖔𝖒𝖎𝖟𝖆𝖇𝖑𝖊 𝖜𝖊𝖑𝖈𝖔𝖒𝖊 𝖒𝖊𝖘𝖘𝖆𝖌𝖊𝖘 𝖆𝖓𝖉 𝖊𝖛𝖊𝖓 𝖘𝖊𝖙 𝖆 𝖌𝖗𝖔𝖚𝖕'𝖘 𝖗𝖚𝖑𝖊𝖘.
+             ❍ 𝕴 𝖍𝖆𝖛𝖊 𝖆𝖓 𝖆𝖉𝖛𝖆𝖓𝖈𝖊𝖉 𝖆𝖓𝖙𝖎-𝖋𝖑𝖔𝖔𝖉 𝖘𝖞𝖘𝖙𝖊𝖒.
+             ❍ 𝕴 𝖈𝖆𝖓 𝖜𝖆𝖗𝖓 𝖚𝖘𝖊𝖗𝖘 𝖚𝖓𝖙𝖎𝖑 𝖙𝖍𝖊𝖞 𝖗𝖊𝖆𝖈𝖍 𝖒𝖆𝖝 𝖜𝖆𝖗𝖓𝖘, 𝖜𝖎𝖙𝖍 𝖊𝖆𝖈𝖍 𝖕𝖗𝖊𝖉𝖊𝖋𝖎𝖓𝖊𝖉 𝖆𝖈𝖙𝖎𝖔𝖓𝖘 𝖘𝖚𝖈𝖍 𝖆𝖘 𝖇𝖆𝖓, 𝖒𝖚𝖙𝖊, 𝖐𝖎𝖈𝖐, 𝖊𝖙𝖈.
+             ❍ 𝕴 𝖍𝖆𝖛𝖊 𝖆 𝖓𝖔𝖙𝖊 𝖐𝖊𝖊𝖕𝖎𝖓𝖌 𝖘𝖞𝖘𝖙𝖊𝖒, 𝖇𝖑𝖆𝖈𝖐𝖑𝖎𝖘𝖙𝖘, 𝖆𝖓𝖉 𝖊𝖛𝖊𝖓 𝖕𝖗𝖊𝖉𝖊𝖙𝖊𝖗𝖒𝖎𝖓𝖊𝖉 𝖗𝖊𝖕𝖑𝖎𝖊𝖘 𝖔𝖓 𝖈𝖊𝖗𝖙𝖆𝖎𝖓 𝖐𝖊𝖞𝖜𝖔𝖗𝖉𝖘.
+             ❍ 𝕴 𝖈𝖍𝖊𝖈𝖐 𝖋𝖔𝖗 𝖆𝖉𝖒𝖎𝖓𝖘' 𝖕𝖊𝖗𝖒𝖎𝖘𝖘𝖎𝖔𝖓𝖘 𝖇𝖊𝖋𝖔𝖗𝖊 𝖊𝖝𝖊𝖈𝖚𝖙𝖎𝖓𝖌 𝖆𝖓𝖞 𝖈𝖔𝖒𝖒𝖆𝖓𝖉 𝖆𝖓𝖉 𝖒𝖔𝖗𝖊 𝖘𝖙𝖚𝖋𝖋𝖘
+               _𝖘𝖍𝖆𝖘𝖆'𝖘 𝖑𝖎𝖈𝖊𝖓𝖘𝖊𝖉 𝖚𝖓𝖉𝖊𝖗 𝖙𝖍𝖊 𝕲𝕹𝖀 𝕲𝖊𝖓𝖊𝖗𝖆𝖑 𝕻𝖚𝖇𝖑𝖎𝖈 𝕷𝖎𝖈𝖊𝖓𝖘𝖊 𝖛3.0_
+               𝕳𝖊𝖗𝖊 𝖎𝖘 𝖙𝖍𝖊 [💾𝕽𝖊𝖕𝖔𝖘𝖎𝖙𝖔𝖗𝖞](https://github.com/MdNoor786/Shasabot-1).
+               𝕴𝖋 𝖞𝖔𝖚 𝖍𝖆𝖛𝖊 𝖆𝖓𝖞 𝖖𝖚𝖊𝖘𝖙𝖎𝖔𝖓 𝖆𝖇𝖔𝖚𝖙 𝖘𝖍𝖆𝖘𝖆, 𝖑𝖊𝖙 𝖚𝖘 𝖐𝖓𝖔𝖜 𝖆𝖙 [𝕾𝖚𝖕𝖕𝖔𝖗𝖙](https://t.me/MissShasa_Gbot).""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="layla_back")
-                    InlineKeyboardButton(text="Help", callback_data="help_back")
+                    InlineKeyboardButton(text="Back", callback_data="shasa_back")
                  ]
                 ]
             ),
         )
-    elif query.data == "layla_back":
+    elif query.data == "shasa_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -388,8 +385,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Patricia*
-                 \nHere is the details Of Owner @About_Blaze .""",
+            text=""" Hi..🤗 I'm *shasa*
+                 \nHere is the [Source Code](https://github.com/MdNoor786/ShasaBot-1) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -636,7 +633,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1837687523 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -684,7 +681,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", " 𝐈❜𝐦 𝐨𝐧𝐥𝐢𝐧𝐞 😜")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
@@ -701,7 +698,7 @@ def main():
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
-    about_callback_handler = CallbackQueryHandler(layla_about_callback, pattern=r"layla_")
+    about_callback_handler = CallbackQueryHandler(shasa_about_callback, pattern=r"shasa_")
     source_callback_handler = CallbackQueryHandler(Source_about_callback, pattern=r"source_")
 
     donate_handler = CommandHandler("donate", donate)
